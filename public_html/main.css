@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 23, 2015, 10:33:03 AM
+    Author     : joeg3_000
+*/
+
+body,
+textarea,
+input{
+    
+    font: 13px "Trebuchet MS" , sans-serif;
+}
+
+.chat{
+    max-width: 300px;
+    
+    
+}
+.chat-messages,
+.chat-name,
+.chat-textarea{
+    border: 1px solid #bbb;
+    
+}
+
+.chat-messages{
+    width: 100%;
+    height: 300px;
+    overflow-y: scroll; 
+    padding:10px;
+    
+}
+.chat-name{
+    width:100%;
+    padding: 10px;
+    border-bottom: 0;
+    margin-bottom: 0;
+    
+}
+.chat-textarea{
+    width:100%;
+    padding:10px;
+    margin-top: 0;
+    border-top: 0;
+    max-width: 100%;   
+}
+
+.chat-status{
+    color:#bbb;
+    
+}
+.chat-textarea,
+.chat-name{
+    outline: none;
+    
+}
